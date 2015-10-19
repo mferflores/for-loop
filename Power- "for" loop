@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main(){
+int x,y, answer=1;
+cout<<"Enter an integer:"<<endl;
+cin>>x;
+cout<<"Enter a second integer:"<<endl;
+cin>>y;
+if(y==0){
+  cout<<x<<" to the 0 power is 1."<<endl;
+  }
+  else{
+    for(int a=0;a<y;a++){
+    answer=answer*x;
+    }
+    cout<<x<<" raised to the "<<y<<" power is "<<answer<<endl;
+  }
+return 0;
+}
